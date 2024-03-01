@@ -1,0 +1,64 @@
+Exercise 1: 
+Determine CIDR Notation
+•
+•
+Convert 255.255.255.0 to CIDR notation (e.g., /24).
+Convert 255.255.255.192 to CIDR notation
+
+answer->
+To convert subnet masks to CIDR notation, you count the number of consecutive 1 bits from the left side.
+
+1. For the subnet mask 255.255.255.0:
+   - In binary, it's 11111111.11111111.11111111.00000000.
+   - Counting the number of consecutive 1 bits gives you 24.
+   - So, the CIDR notation is /24.
+
+2. For the subnet mask 255.255.255.192:
+   - In binary, it's 11111111.11111111.11111111.11000000.
+   - Counting the number of consecutive 1 bits gives you 26.
+   - So, the CIDR notation is /26.
+
+
+Convert the following IPv4 address into binary notation:
+IP Address: 192.168.1.10
+
+192.168.1.10:
+
+192 in binary is 11000000
+168 in binary is 10101000
+1 in binary is 00000001
+10 in binary is 00001010
+Putting it all together:
+
+192.168.1.10 in binary notation is: 11000000.10101000.00000001.00001010
+
+
+2. 
+Convert the following IPv4 address into binary notation:
+IP Address: 10.1.221.124
+
+10.1.221.124:
+
+10 in binary is 00001010
+1 in binary is 00000001
+221 in binary is 11011101
+124 in binary is 01111100
+Putting it all together:
+
+10.1.221.124 in binary notation is: 00001010.00000001.11011101.01111100
+
+3. Given the following subnet mask in decimal notation, convert it into binary notation:
+Subnet Mask: 255.255.255.0
+
+255.255.255.0:
+
+255 in binary is 11111111
+255 in binary is 11111111
+255 in binary is 11111111
+0 in binary is 00000000
+Putting it all together:
+
+255.255.255.0 in binary notation is: 11111111.11111111.11111111.00000000
+
+
+
